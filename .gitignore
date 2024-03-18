@@ -2,3 +2,4 @@
 
 # Removing default themes
 themes/*
+!theme-boilerplate
