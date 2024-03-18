@@ -1,0 +1,4 @@
+.env
+
+# Removing default themes
+themes/*
