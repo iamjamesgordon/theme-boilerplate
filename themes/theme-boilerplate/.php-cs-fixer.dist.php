@@ -7,7 +7,7 @@ $finder = \PhpCsFixer\Finder::create()
     ->exclude('templates-parts')
     ->exclude('vendor')
     ->exclude('scripts')
-    ->in(__DIR__);
+    ->in(__DIR__ . '/src');
 
 return (new PhpCsFixer\Config())
     ->setFinder($finder)
