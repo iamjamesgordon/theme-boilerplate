@@ -176,3 +176,5 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+require_once(plugin_dir_path(__FILE__) . 'vendor/autoload.php');
+require_once(plugin_dir_path(__FILE__) . 'src/load.php');
