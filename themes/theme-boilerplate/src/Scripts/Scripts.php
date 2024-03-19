@@ -13,4 +13,6 @@ class Scripts
     {
         echo "<h1>ThemeBoilerplate\Scripts\Scripts loaded</h1>";
     }
+
+
 }
