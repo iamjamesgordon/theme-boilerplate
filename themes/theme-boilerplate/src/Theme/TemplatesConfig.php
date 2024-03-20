@@ -15,6 +15,8 @@ class TemplatesConfig
         foreach($templates as $key => $template):
             add_filter($template, [$this, 'pathChanger']);
         endforeach;
+
+        add_filter('template_directory', [$this, 'templatePartDirectoryChanger']);
     }
 
     public function pathChanger($templates): array
@@ -24,6 +26,11 @@ class TemplatesConfig
             $new_templates[] = "templates/" . $template;
         endforeach;
         return $new_templates;
+    }
+
+    public function templatePartDirectoryChanger($directory): string
+    {
+        return $directory . "/templates";
     }
 
 }
