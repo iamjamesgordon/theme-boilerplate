@@ -181,4 +181,23 @@ if (defined('JETPACK__VERSION')) {
 }
 
 require_once(plugin_dir_path(__FILE__) . 'vendor/autoload.php');
+
+$templatesConfig = new \ThemeBoilerplate\Theme\TemplatesConfig();
+$templatesConfig->init();
+
 require_once(plugin_dir_path(__FILE__) . 'src/load.php');
+
+/* add_filter('index_template_hierarchy', 'replace_template_location');
+add_filter('home_template_hierarchy', 'replace_template_location');
+add_filter('page_template_hierarchy', 'replace_template_location'); */
+
+/* function replace_template_location($templates) {
+
+    $new_templates = [];
+
+    foreach($templates as $template):
+        $new_templates[] = "pages/" . $template;
+    endforeach;
+
+    return $new_templates;
+} */
