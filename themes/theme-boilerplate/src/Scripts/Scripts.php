@@ -4,15 +4,46 @@ namespace ThemeBoilerplate\Scripts;
 
 class Scripts
 {
-    public function init(): void
+    protected $ManifestPath;
+    protected $ManifestFile;
+
+    public function __construct()
     {
-        add_action('init', [$this, 'register']);
+        $this->ManifestFile = json_decode(file_get_contents(get_stylesheet_directory(). "/dist/manifest.json"), true);
+        $this->ManifestPath = dirname(get_stylesheet_directory_uri(). "/dist/manifest.json");
     }
 
-    public function register(): void
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function init()
     {
-        echo "<h1>ThemeBoilerplate\Scripts\Scripts loaded</h1>";
+        add_action('wp_enqueue_scripts', [$this, 'enqueueScripts']);
     }
 
+    /**
+     *
+     *
+     * @return void
+     */
+    public function enqueueScripts()
+    {
+        wp_enqueue_style('main-css', $this->getHashedAssetFile('pb_public.css'));
+        wp_enqueue_script('main-js', $this->getHashedAssetFile('pb_public.js'), array(), '1.0.0', true);
+    }
+
+    /**
+     *
+     *
+     * @return string
+     */
+    public function getHashedAssetFile(string $asset)
+    {
+        $path = $this->ManifestPath;
+        $file = substr($this->ManifestFile[$asset], 2);
+        return $path ."/". $file;
+    }
 
 }
