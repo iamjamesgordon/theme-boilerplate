@@ -1,0 +1,20 @@
+{
+    "404": "404_template_hierarchy",
+    "archive": "archive_template_hierarchy",
+    "attachment": "attachment_template_hierarchy",
+    "author": "author_template_hierarchy",
+    "category": "category_template_hierarchy",
+    "date": "date_template_hierarchy",
+    "embed": "embed_template_hierarchy",
+    "frontend": "frontpage_template_hierarchy",
+    "home": "home_template_hierarchy",
+    "index": "index_template_hierarchy",
+    "page": "page_template_hierarchy",
+    "paged": "paged_template_hierarchy",
+    "priacy": "privacypolicy_template_hierarchy",
+    "search": "search_template_hierarchy",
+    "single": "single_template_hierarchy",
+    "singular": "singular_template_hierarchy",
+    "tage:": "tag_template_hierarchy",
+    "taxonomy": "taxonomy_template_hierarchy"
+}
