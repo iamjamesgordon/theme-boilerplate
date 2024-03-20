@@ -1,0 +1,402 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "custom": false,
+            "customDuotone": false,
+            "customGradient": false,
+            "defaultPalette": false,
+            "defaultGradients": false,
+            "palette": [
+                {
+                    "name": "Primary Base",
+                    "slug": "primary-base",
+                    "color": "#E1F073"
+                },
+                {
+                    "name": "Primary Dark",
+                    "slug": "primary-dark",
+                    "color": "#BBC860"
+                },
+                {
+                    "name": "Primary Light",
+                    "slug": "primary-light",
+                    "color": "#EBF5A2"
+                },
+                {
+                    "name": "Primary Pastel",
+                    "slug": "primary-pastel",
+                    "color": "#F5FAD0"
+                },
+                {
+                    "name": "Primary Tint",
+                    "slug": "primary-tint",
+                    "color": "#F9FCE3"
+                },
+                {
+                    "name": "Green Base",
+                    "slug": "green-base",
+                    "color": "#64C67E"
+                },
+                {
+                    "name": "Green Dark",
+                    "slug": "green-dark",
+                    "color": "#53A569"
+                },
+                {
+                    "name": "Green Light",
+                    "slug": "green-light",
+                    "color": "#7ECF93"
+                },
+                {
+                    "name": "Green Pastel",
+                    "slug": "green-pastel",
+                    "color": "#B1E2BE"
+                },
+                {
+                    "name": "Green Tint",
+                    "slug": "green-tint",
+                    "color": "#E0F4E5"
+                },
+                {
+                    "name": "Yellow Base",
+                    "slug": "yellow-base",
+                    "color": "#FFC73B"
+                },
+                {
+                    "name": "Yellow Dark",
+                    "slug": "yellow-dark",
+                    "color": "#F2B007"
+                },
+                {
+                    "name": "Yellow Light",
+                    "slug": "yellow-light",
+                    "color": "#FFDE9F"
+                },
+                {
+                    "name": "Yellow Pastel",
+                    "slug": "yellow-pastel",
+                    "color": "#FFF4DF"
+                },
+                {
+                    "name": "Yellow Tint",
+                    "slug": "yellow-tint",
+                    "color": "#FFFAEF"
+                },
+                {
+                    "name": "Red Base",
+                    "slug": "red-base",
+                    "color": "#FA7456"
+                },
+                {
+                    "name": "Red Dark",
+                    "slug": "red-dark",
+                    "color": "#D06148"
+                },
+                {
+                    "name": "Red Light",
+                    "slug": "red-light",
+                    "color": "#FCA28E"
+                },
+                {
+                    "name": "Red Pastel",
+                    "slug": "red-pastel",
+                    "color": "#FDD1C7"
+                },
+                {
+                    "name": "Red Tint",
+                    "slug": "red-tint",
+                    "color": "#FEE3DD"
+                },
+                {
+                    "name": "Blue Base",
+                    "slug": "blue-base",
+                    "color": "#0EC8E9"
+                },
+                {
+                    "name": "Blue Dark",
+                    "slug": "blue-dark",
+                    "color": "#08788C"
+                },
+                {
+                    "name": "Blue Light",
+                    "slug": "blue-light",
+                    "color": "#6EDEF2"
+                },
+                {
+                    "name": "Blue Pastel",
+                    "slug": "blue-pastel",
+                    "color": "#CFF4FB"
+                },
+                {
+                    "name": "Blue Tint",
+                    "slug": "blue-tint",
+                    "color": "#E7FAFD"
+                },
+                {
+                    "name": "Black 10",
+                    "slug": "black-10",
+                    "color": "#FBFBFB"
+                },
+                {
+                    "name": "Black 20",
+                    "slug": "black-20",
+                    "color": "#F6F6F6"
+                },
+                {
+                    "name": "Black 30",
+                    "slug": "black-30",
+                    "color": "#EDEDEE"
+                },
+                {
+                    "name": "Black 40",
+                    "slug": "black-40",
+                    "color": "#CACACB"
+                },
+                {
+                    "name": "Black 50",
+                    "slug": "black-50",
+                    "color": "#B8B9B9"
+                },
+                {
+                    "name": "Black 60",
+                    "slug": "black-60",
+                    "color": "#7A7B7C"
+                },
+                {
+                    "name": "Black 70",
+                    "slug": "black-70",
+                    "color": "#575859"
+                },
+                {
+                    "name": "Black 80",
+                    "slug": "black-80",
+                    "color": "#3D3D3F"
+                },
+                {
+                    "name": "Black 100",
+                    "slug": "black-100",
+                    "color": "#222325"
+                },
+                {
+                    "name": "White 20",
+                    "slug": "white-20",
+                    "color": "#2F3032"
+                },
+                {
+                    "name": "White 30",
+                    "slug": "white-30",
+                    "color": "#38393B"
+                },
+                {
+                    "name": "White 40",
+                    "slug": "white-40",
+                    "color": "#4E4F51"
+                },
+                {
+                    "name": "White 50",
+                    "slug": "white-50",
+                    "color": "#69696B"
+                },
+                {
+                    "name": "White 60",
+                    "slug": "white-60",
+                    "color": "#9E9E9F"
+                },
+                {
+                    "name": "White 70",
+                    "slug": "white-70",
+                    "color": "#D3D3D3"
+                },
+                {
+                    "name": "White 80",
+                    "slug": "white-80",
+                    "color": "#E4E5E5"
+                },
+                {
+                    "name": "White 100",
+                    "slug": "white-100",
+                    "color": "#FFFFFF"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "1120px",
+            "wideSize": "1280px"
+        },
+        "typography": {
+            "customFontSize": false,
+            "lineHeight": false,
+            "dropCap": false,
+            "letterSpacing": false,
+            "fontWeight": false,
+            "fontStyle": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Red Hat Display Regular\", serif",
+                    "name": "Red Hat Display Regular",
+                    "slug": "red-hat-display-regular",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Display Regular",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/regular/RedHatDisplay-Regular.woff2",
+                                "file:./public/fonts/regular/RedHatDisplay-Regular.woff",
+                                "file:./public/fonts/regular/RedHatDisplay-Regular.ttf",
+                                "file:./public/fonts/regular/RedHatDisplay-Regular.otf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Red Hat Display Regular - Italic\", serif",
+                    "name": "Red Hat Display Regular Italic",
+                    "slug": "red-hat-display-regular-italic",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Regular - Italic",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/regular-italic/RedHatDisplay-Regular-Italic.woff2",
+                                "file:./public/fonts/regular-italic/RedHatDisplay-Regular-Italic.woff",
+                                "file:./public/fonts/regular-italic/RedHatDisplay-Regular-Italic.ttf",
+                                "file:./public/fonts/regular-italic/RedHatDisplay-Regular-Italic.otf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Red Hat Display Bold\", serif",
+                    "name": "Red Hat Display Bold",
+                    "slug": "red-hat-display-bold",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Regular Bold",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/bold/RedHatDisplay-Bold.woff2",
+                                "file:./public/fonts/bold/RedHatDisplay-Bold.woff",
+                                "file:./public/fonts/bold/RedHatDisplay-Bold.ttf",
+                                "file:./public/fonts/bold/RedHatDisplay-Bold.otf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Red Hat Display Bold - Italic\", serif",
+                    "name": "Red Hat Display Bold Italic",
+                    "slug": "red-hat-display-bold-italic",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Regular Bold - Italic",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/bold-italic/RedHatDisplay-Bold-Italic.woff2",
+                                "file:./public/fonts/bold-italic/RedHatDisplay-Bold-Italic.woff",
+                                "file:./public/fonts/bold-italic/RedHatDisplay-Bold-Italic.ttf",
+                                "file:./public/fonts/bold-italic/RedHatDisplay-Bold-Italic.otf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Red Hat Display Extra Bold\", serif",
+                    "name": "Red Hat Display Extra Bold",
+                    "slug": "red-hat-display-extra-bold",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Regular Extra Bold",
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/extra-bold/RedHatDisplay-ExtraBold.woff2",
+                                "file:./public/fonts/extra-bold/RedHatDisplay-ExtraBold.woff",
+                                "file:./public/fonts/extra-bold/RedHatDisplay-ExtraBold.ttf",
+                                "file:./public/fonts/extra-bold/RedHatDisplay-ExtraBold.otf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Red Hat Display Extra Bold - Italic\", serif",
+                    "name": "Red Hat Display Extra Bold Italic",
+                    "slug": "red-hat-display-extra-bold-italic",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Red Hat Regular Extra Bold - Italic",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./public/fonts/extra-bold-italic/RedHatDisplay-ExtraBold-Italic.woff2",
+                                "file:./public/fonts/extra-bold-italic/RedHatDisplay-ExtraBold-Italic.woff",
+                                "file:./public/fonts/extra-bold-italic/RedHatDisplay-ExtraBold-Italic.ttf",
+                                "file:./public/fonts/extra-bold-italic/RedHatDisplay-ExtraBold-Italic.otf"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "name": "Header 1",
+                    "slug": "header-1",
+                    "size": "56px"
+                },
+                {
+                    "name": "Header 2",
+                    "slug": "header-2",
+                    "size": "40px"
+                },
+                {
+                    "name": "Header 3",
+                    "slug": "header-3",
+                    "size": "30px"
+                },
+                {
+                    "name": "Header 4",
+                    "slug": "header-4",
+                    "size": "24px"
+                },
+                {
+                    "name": "Body Large",
+                    "slug": "body-large",
+                    "size": "20px"
+                },
+                {
+                    "name": "Body Medium",
+                    "slug": "body-medium",
+                    "size": "16px"
+                },
+                {
+                    "name": "Body Small",
+                    "slug": "body-small",
+                    "size": "14px"
+                },
+                {
+                    "name": "Body XS",
+                    "slug": "body-xs",
+                    "size": "12px"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--red-hat-display-regular)"
+        }
+    },
+    "customTemplates": [],
+    "templateParts": []
+}
